@@ -40,7 +40,8 @@ public class AppConfig {
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:3000",
 						"http://localhost:4200",
-						"https://dhoopwale.vercel.app"
+						"https://dhoopwale.vercel.app",
+						"https://dhoopwale-server-production.up.railway.app"
 						));
 				cfg.setAllowedMethods(Collections.singletonList("*"));
 				cfg.setAllowCredentials(true);
